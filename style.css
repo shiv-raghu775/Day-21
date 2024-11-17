@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(https://images.unsplash.com/photo-1527842891421-42eec6e703ea?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #333333a8;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffffaf;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  header nav a {
+    margin-left: 15px;
+    color: #ffffff6d;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #4a90e2;
+  }
+  
+  .countdown-box {
+    padding: 20px;
+    background: #33333329;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #ffffffa1;
+  }
+  
+  .countdown-box h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffffffa7;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ffffffc3;
+  }
+  
+  .countdown div {
+    text-align: center;
+  }
+  
+  .countdown span {
+    font-size: 1.5em;
+    color: #ffffffa7;
+  }
+  
+  .description {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  #remind-me {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #remind-me:hover {
+    background-color: #357abf;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #ffffff93;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    margin-left: 15px;
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #333;
+  }
+  
